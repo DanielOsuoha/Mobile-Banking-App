@@ -132,9 +132,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 JAZZMIN_SETTINGS = {
-    "site_header": "Admin Dashboard",
-    "site_brand": "My Paylio Site",
+    "site_header": "Paylio",
+    "site_brand": "Fast, Secure & Reliable",
     #"site_logo": "images/logo.png",
-    # "copyright": "",
+    "copyright": "Paylio - By Daniel Osuoha",
     # "order_with_respect_to": ["core", "user_auth"]
 }
