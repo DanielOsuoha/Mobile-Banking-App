@@ -134,6 +134,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 JAZZMIN_SETTINGS = {
     "site_header": "Admin Dashboard",
     "site_brand": "My Paylio Site",
-    "copyright": "",
-    "order_with_respect_to": ["core", "user_auth"]
+    #"site_logo": "images/logo.png",
+    # "copyright": "",
+    # "order_with_respect_to": ["core", "user_auth"]
 }
