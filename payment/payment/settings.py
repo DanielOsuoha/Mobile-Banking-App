@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-AUTH_USER_MODEL = "user_auth.User"
+# AUTH_USER_MODEL = "user_auth.User"
 # Application definition
 
 INSTALLED_APPS = [
@@ -133,7 +133,9 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
 JAZZMIN_SETTINGS = {
     "site_header": "Paylio",
+    "site_title": "Paylio",
     "site_brand": "Fast, Secure & Reliable",
+    "welcome_sign": "Welcome to paylio!",
     #"site_logo": "images/logo.png",
     "copyright": "Paylio - By Daniel Osuoha",
     # "order_with_respect_to": ["core", "user_auth"]

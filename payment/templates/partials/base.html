@@ -6,8 +6,17 @@
     <title>Paylio - {%block title%}Paylio{%endblock%}</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="{% url 'core:about' %}">About</a></li>
+            <li><a href="{% url 'core:contact' %}">Contact</a></li>
+        </ul>
+    </nav>
     {%block content %}
 
     {%endblock%}
+    <footer>
+        &copy; 2024 Paylio. All rights reserved.
+    </footer>
 </body>
 </html>
