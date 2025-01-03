@@ -26,3 +26,15 @@ def signUp(request):
     }    
     return render(request, "user_auth/signup.html", context)
 
+def signIn(request):
+    if request.method == 'POST':
+        username = request.POST.get('username')
+        password = request.POST.get('password')
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            login(request, user)
+            messages.success(request, f"Welcome back, {username}.")
+            return render(request, "core/index.html")
+        else:
+            messages.error(request, "Invalid username or password.")
+    return render(request, "core/index.html")
