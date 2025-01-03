@@ -27,7 +27,7 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
-# AUTH_USER_MODEL = "user_auth.User"
+AUTH_USER_MODEL = "user_auth.User" # for the custom user model we are creating in the user_auth app
 # Application definition
 
 INSTALLED_APPS = [
