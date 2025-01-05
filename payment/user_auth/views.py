@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from user_auth.forms import UserForm
-from django.contrib.auth import authenticate, login
+from django.contrib.auth import authenticate, login, logout
 from django.contrib import messages
 
 # Create your views here.
@@ -27,6 +27,7 @@ def signUp(request):
     return render(request, "user_auth/signup.html", context)
 
 def signIn(request):
+
     if request.method == 'POST':
         username = request.POST.get('username')
         password = request.POST.get('password')
@@ -37,4 +38,9 @@ def signIn(request):
             return render(request, "core/index.html")
         else:
             messages.error(request, "Invalid username or password.")
+    return render(request, "core/index.html")
+
+def signOut(request):
+    logout(request.user)
+    messages.success(request, "You have logged out successfully.")
     return render(request, "core/index.html")

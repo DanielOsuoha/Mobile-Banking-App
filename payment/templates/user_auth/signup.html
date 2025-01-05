@@ -9,7 +9,7 @@
                 <div class="row align-items-center justify-content-center">
                     <div class="col-xl-6 order-xl-0 order-1">
                         <div class="sec-img d-rtl">
-                            <img src="{% static 'assets/images/logo.png' %}" class="max-un" alt="image">
+                            <img src="{% static 'assets/images/app-download-img.png' %}" class="max-un" alt="image">
                         </div>
                     </div>
                     <div class="col-xl-5">
@@ -21,34 +21,38 @@
                         </div>
                         <form method="POST">
                             {% csrf_token %}
-                            <div class="alert-danger alert">
+                            <!-- <div class="alert-danger alert"> -->
                                 <!-- More robust error viewer -->
 
-                                {% if form.errors %}
+                                <!-- {% if form.errors %}
                                     {% for field in form %}
                                         {% for error in field.errors %}
                                             <p> {{ error }} </p>
                                         {% endfor %}
                                     {% endfor %}
-                                {% endif %}
+                                {% endif %} -->
 
                                 <!-- Less robust error viewer -->
                                 <!-- {% if form.errors %}
                                     <p> {{ form.errors }} </p>
                                 {% endif %} -->
-                            </div>
+                            <!-- </div> -->
                             <div class="row">
                                 <div class="col-12">
                                     <div class="single-input">
+                                        <label for="{{ form.email.id_for_label }}">Email:</label>  
                                         {{form.email}}
                                     </div>
                                     <div class="single-input">
+                                        <label for="{{ form.username.id_for_label }}">Username:</label>  
                                         {{form.username}}
                                     </div>
                                     <div class="single-input">
+                                        <label for="{{ form.password1.id_for_label }}">Enter Password:</label>  
                                         {{form.password1}}
                                     </div>
                                     <div class="single-input">
+                                        <label for="{{ form.password2.id_for_label }}">Confirm Password:</label>  
                                         {{form.password2}}
                                     </div>
                                     <button class="cmn-btn w-100" type="submit">Sign Up</button>
