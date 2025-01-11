@@ -3,12 +3,12 @@
 ## 🌟 Project Overview
 The Banking Application is a comprehensive financial management system built using Django. This app facilitates secure banking operations, incorporating essential features such as user authentication, Know Your Customer (KYC) compliance, and transaction management. Deployed on Railway and utilizing AWS S3 for scalable storage solutions, this application is designed to provide a seamless user experience.
 
-## 🚀 Features
+## Features
 - **🔐 User Authentication:** Secure sign-up and login processes to protect user data.
-- **🛡️ KYC Compliance:** Collects and verifies user information to ensure regulatory compliance.
-- **💰 Transaction Management:** Users can perform various banking transactions, including deposits, withdrawals, and transfers.
+- ** KYC Compliance:** Collects and verifies user information to ensure regulatory compliance.
+- ** Transaction Management:** Users can perform various banking transactions, including deposits, withdrawals, and transfers.
 - **💳 Virtual Card Integration:** Provides users with virtual cards for online payments and withdrawals.
-- **📲 Real-Time Notifications:** Users receive instant notifications for transaction updates, enhancing engagement and tracking.
+- ** Real-Time Notifications:** Users receive instant notifications for transaction updates, enhancing engagement and tracking.
 
 ## ⚙️ Tech Stack
 - **Backend:** Django
