@@ -8,7 +8,7 @@ The Banking Application is a comprehensive financial management system built usi
 - **KYC Compliance:** Collects and verifies user information to ensure regulatory compliance.
 - **Transaction Management:** Users can perform various banking transactions, including deposits, withdrawals, and transfers.
 - **💳 Virtual Card Integration:** Provides users with virtual cards for online payments and withdrawals.
-- ** Real-Time Notifications:** Users receive instant notifications for transaction updates, enhancing engagement and tracking.
+- **Real-Time Notifications:** Users receive instant notifications for transaction updates, enhancing engagement and tracking.
 
 ## ⚙️ Tech Stack
 - **Backend:** Django
