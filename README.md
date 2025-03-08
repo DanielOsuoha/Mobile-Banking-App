@@ -11,7 +11,6 @@ The Banking Application is a comprehensive financial management system built usi
 - **💳 Virtual Card Integration:** Provides users with virtual cards for online payments and withdrawals.
 - **Real-Time Notifications:** Users receive instant notifications for transaction updates, enhancing engagement and tracking.
 
-
 ## ⚙️ Tech Stack
 - **Backend:** Django
 - **Database:** PostgreSQL
