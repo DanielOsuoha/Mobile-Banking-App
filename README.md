@@ -19,6 +19,7 @@ The Banking Application is a comprehensive financial management system built usi
 - **Cloud Storage:** AWS S3
 
 
+
 ## 🗂️ Project Structure
 The project follows a modular structure, which includes:
 - **models.py:** Defines the database schema and relationships.
