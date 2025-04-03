@@ -12,6 +12,7 @@ The Banking Application is a comprehensive financial management system built usi
 - **Real-Time Notifications:** Users receive instant notifications for transaction updates, enhancing engagement and tracking.
 
 
+
 ## ⚙️ Tech Stack
 - **Backend:** Django
 - **Database:** PostgreSQL
